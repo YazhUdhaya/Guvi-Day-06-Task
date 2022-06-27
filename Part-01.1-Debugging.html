@@ -1,0 +1,32 @@
+//Find the culprit
+
+<!DOCTYPE html>
+<html>
+<body>
+ <script>
+ //alert( “I’m JavaScript!’);   === //Display output means use "" or '', We mix the qoutation means we got error
+ alert("I'm JavaScript!");
+ </script>
+Whats the error in this ?
+</body>
+</html>
+
+
+//Find the culprit and invoke the alert
+
+<!DOCTYPE html>
+<html>
+<body>
+// <script src=”script.js”></script>  ===// Wrong js file to attach.
+<script src = "scripts.js"></script>
+</body>
+</html>
+scripts.js
+
+alert(“I’m invoked!”);
+
+// Connected js file to solve another Part01 Problems.
+
+<html>
+<script src = "Part-01-Debugging.js"></script>
+</html>
